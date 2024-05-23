@@ -6,8 +6,98 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
     <title>QuoteBook</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+      }
+      header {
+        background-color: #5e0404;
+        color: white;
+        padding: 20px;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: poetsen one;
+      }
+      main {
+        margin-top: 50px;
+        margin-left: 250px;
+        margin-right: 250px;
+      }
+      div {
+        background-color: #d8efb3;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-sizing: 400px;
+        font-family: roboto;
+      }
+      .Musician {
+        background-color: skyblue;
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-sizing: 400px;
+      }
+      span {
+        font-weight: bold;
+        margin-left: 500px;
+        font-family: lora;
+        font-style: italic;
+      }
+    </style>
   </head>
   <body>
-
+    <header>Quotebook</header>
+    <main>
+      <h2>
+        <font color="red">Author Quotes</font>
+      </h2>
+      <br />
+      <div>
+        <p>
+          "The greatest glory in living lies not in never falling, but in rising
+          every time we fall" <br />
+          <br /><span>-Nelson Mandela</span>
+        </p>
+      </div>
+      <div>
+        <p>
+          "The way to get started is to quit talking and begin doing" <br />
+          <br />
+          <span>-Walt Disney</span>
+        </p>
+      </div>
+      <div>
+        <p>
+          "You may say I'm a dreamer, but I'm not the only one. I hope someday
+          you'll join us. And the world will live as one" <br />
+          <br />
+          <span>-John Lennon</span>
+        </p>
+      </div>
+      <h2>
+        <font color="grey">Musician Quotes</font>
+      </h2>
+      <br />
+      <div class="Musician">
+        <p>
+          "Your time is limited, so don't waste it living someone else's life.
+          Don't be trapped by dogma – which is living with the results of other
+          people's thinking" <br />
+          <br /><span>-Steve Jobs</span>
+        </p>
+      </div>
+    </main>
   </body>
 </html>
